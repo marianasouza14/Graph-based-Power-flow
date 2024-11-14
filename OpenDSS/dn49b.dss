@@ -1,0 +1,251 @@
+Clear
+Set DefaultBaseFrequency=60
+
+new object=circuit.dn25b
+~ basekv=13.8 pu=1 phases=3 bus1=B136 Angle=0 MVAsc3=20000 MVASC1=21000
+
+new linecode.LC136_1 nphases = 3
+~ r1=1e-4 r0=1e-4 x1=0.000 x0=0.000 c1=0.000 c0=0.000
+new linecode.LC1_2 nphases = 3
+~ rmatrix = (0.38448 | 0.054 0.38448 | 0.054 0.054 0.38448)
+~ xmatrix = (0.86481 | 0.4302 0.86481 | 0.405 0.4824 0.86481)
+new linecode.LC2_3 nphases = 3
+~ rmatrix = (0.0542 | 0.003 0.0542 | 0.003 0.003 0.0542)
+~ xmatrix = (0.0499 | 0.0239 0.0499 | 0.0225 0.0268 0.0499)
+new linecode.LC3_4 nphases = 3
+~ rmatrix = (0.04272 | 0.006 0.04272 | 0.006 0.006 0.04272)
+~ xmatrix = (0.09609 | 0.0478 0.09609 | 0.045 0.0536 0.09609)
+new linecode.LC3_5 nphases = 3
+~ rmatrix = (0.017088 | 0.0024 0.017088 | 0.0024 0.0024 0.017088)
+~ xmatrix = (0.038436 | 0.01912 0.038436 | 0.018 0.02144 0.038436)
+new linecode.LC5_6 nphases = 3
+~ rmatrix = (0.08544 | 0.012 0.08544 | 0.012 0.012 0.08544)
+~ xmatrix = (0.19218 | 0.0956 0.19218 | 0.09 0.1072 0.19218)
+new linecode.LC6_7 nphases = 3
+~ rmatrix = (0.08544 | 0.012 0.08544 | 0.012 0.012 0.08544)
+~ xmatrix = (0.19218 | 0.0956 0.19218 | 0.09 0.1072 0.19218)
+new linecode.LC7_8 nphases = 3
+~ rmatrix = (0.08544 | 0.012 0.08544 | 0.012 0.012 0.08544)
+~ xmatrix = (0.19218 | 0.0956 0.19218 | 0.09 0.1072 0.19218)
+new linecode.LC8_9 nphases = 3
+~ rmatrix = (0.004272 | 0.0006 0.004272 | 0.0006 0.0006 0.004272)
+~ xmatrix = (0.009609 | 0.00478 0.009609 | 0.0045 0.00536 0.009609)
+new linecode.LC9_10 nphases = 3
+~ rmatrix = (0.02136 | 0.003 0.02136 | 0.003 0.003 0.02136)
+~ xmatrix = (0.048045 | 0.0239 0.048045 | 0.0225 0.0268 0.048045)
+new linecode.LC10_11 nphases = 3
+~ rmatrix = (0.1644 | 0.006 0.1644 | 0.006 0.006 0.1644)
+~ xmatrix = (0.1006 | 0.0478 0.1006 | 0.045 0.0536 0.1006)
+new linecode.LC11_12 nphases = 3
+~ rmatrix = (0.09864 | 0.0036 0.09864 | 0.0036 0.0036 0.09864)
+~ xmatrix = (0.06036 | 0.02868 0.06036 | 0.027 0.03216 0.06036)
+new linecode.LC12_13 nphases = 3
+~ rmatrix = (0.04932 | 0.0018 0.04932 | 0.0018 0.0018 0.04932)
+~ xmatrix = (0.03018 | 0.01434 0.03018 | 0.0135 0.01608 0.03018)
+new linecode.LC13_14 nphases = 3
+~ rmatrix = (0.26304 | 0.0096 0.26304 | 0.0096 0.0096 0.26304)
+~ xmatrix = (0.16096 | 0.07648 0.16096 | 0.072 0.08576 0.16096)
+new linecode.LC14_15 nphases = 3
+~ rmatrix = (0.04932 | 0.0018 0.04932 | 0.0018 0.0018 0.04932)
+~ xmatrix = (0.03018 | 0.01434 0.03018 | 0.0135 0.01608 0.03018)
+new linecode.LC12_16 nphases = 3
+~ rmatrix = (0.01644 | 0.0006 0.01644 | 0.0006 0.0006 0.01644)
+~ xmatrix = (0.01006 | 0.00478 0.01006 | 0.0045 0.00536 0.01006)
+new linecode.LC16_17 nphases = 3
+~ rmatrix = (0.03288 | 0.0012 0.03288 | 0.0012 0.0012 0.03288)
+~ xmatrix = (0.02012 | 0.00956 0.02012 | 0.009 0.01072 0.02012)
+new linecode.LC17_18 nphases = 3
+~ rmatrix = (0.06576 | 0.0024 0.06576 | 0.0024 0.0024 0.06576)
+~ xmatrix = (0.04024 | 0.01912 0.04024 | 0.018 0.02144 0.04024)
+new linecode.LC18_19 nphases = 3
+~ rmatrix = (0.04336 | 0.0024 0.04336 | 0.0024 0.0024 0.04336)
+~ xmatrix = (0.03992 | 0.01912 0.03992 | 0.018 0.02144 0.03992)
+new linecode.LC19_20 nphases = 3
+~ rmatrix = (0.0542 | 0.003 0.0542 | 0.003 0.003 0.0542)
+~ xmatrix = (0.0499 | 0.0239 0.0499 | 0.0225 0.0268 0.0499)
+new linecode.LC20_21 nphases = 3
+~ rmatrix = (0.1626 | 0.009 0.1626 | 0.009 0.009 0.1626)
+~ xmatrix = (0.1497 | 0.0717 0.1497 | 0.0675 0.0804 0.1497)
+new linecode.LC19_22 nphases = 3
+~ rmatrix = (0.012816 | 0.0018 0.012816 | 0.0018 0.0018 0.012816)
+~ xmatrix = (0.028827 | 0.01434 0.028827 | 0.0135 0.01608 0.028827)
+new linecode.LC11_23 nphases = 3
+~ rmatrix = (0.029904 | 0.0042 0.029904 | 0.0042 0.0042 0.029904)
+~ xmatrix = (0.067263 | 0.03346 0.067263 | 0.0315 0.03752 0.067263)
+new linecode.LC23_24 nphases = 3
+~ rmatrix = (0.0822 | 0.003 0.0822 | 0.003 0.003 0.0822)
+~ xmatrix = (0.0503 | 0.0239 0.0503 | 0.0225 0.0268 0.0503)
+new linecode.LC24_25 nphases = 3
+~ rmatrix = (0.03288 | 0.0012 0.03288 | 0.0012 0.0012 0.03288)
+~ xmatrix = (0.02012 | 0.00956 0.02012 | 0.009 0.01072 0.02012)
+new linecode.LC25_26 nphases = 3
+~ rmatrix = (0.04932 | 0.0018 0.04932 | 0.0018 0.0018 0.04932)
+~ xmatrix = (0.03018 | 0.01434 0.03018 | 0.0135 0.01608 0.03018)
+new linecode.LC26_27 nphases = 3
+~ rmatrix = (0.06504 | 0.0036 0.06504 | 0.0036 0.0036 0.06504)
+~ xmatrix = (0.05988 | 0.02868 0.05988 | 0.027 0.03216 0.05988)
+new linecode.LC27_28 nphases = 3
+~ rmatrix = (0.04336 | 0.0024 0.04336 | 0.0024 0.0024 0.04336)
+~ xmatrix = (0.03992 | 0.01912 0.03992 | 0.018 0.02144 0.03992)
+new linecode.LC28_29 nphases = 3
+~ rmatrix = (0.02168 | 0.0012 0.02168 | 0.0012 0.0012 0.02168)
+~ xmatrix = (0.01996 | 0.00956 0.01996 | 0.009 0.01072 0.01996)
+new linecode.LC29_30 nphases = 3
+~ rmatrix = (0.13008 | 0.0072 0.13008 | 0.0072 0.0072 0.13008)
+~ xmatrix = (0.11976 | 0.05736 0.11976 | 0.054 0.06432 0.11976)
+new linecode.LC30_31 nphases = 3
+~ rmatrix = (0.02168 | 0.0012 0.02168 | 0.0012 0.0012 0.02168)
+~ xmatrix = (0.01996 | 0.00956 0.01996 | 0.009 0.01072 0.01996)
+new linecode.LC29_32 nphases = 3
+~ rmatrix = (0.03288 | 0.0012 0.03288 | 0.0012 0.0012 0.03288)
+~ xmatrix = (0.02012 | 0.00956 0.02012 | 0.009 0.01072 0.02012)
+new linecode.LC27_33 nphases = 3
+~ rmatrix = (0.00822 | 0.0003 0.00822 | 0.0003 0.0003 0.00822)
+~ xmatrix = (0.00503 | 0.00239 0.00503 | 0.00225 0.00268 0.00503)
+new linecode.LC33_34 nphases = 3
+~ rmatrix = (0.0411 | 0.0015 0.0411 | 0.0015 0.0015 0.0411)
+~ xmatrix = (0.02515 | 0.01195 0.02515 | 0.01125 0.0134 0.02515)
+new linecode.LC34_35 nphases = 3
+~ rmatrix = (0.004272 | 0.0006 0.004272 | 0.0006 0.0006 0.004272)
+~ xmatrix = (0.009609 | 0.00478 0.009609 | 0.0045 0.00536 0.009609)
+new linecode.LC24_36 nphases = 3
+~ rmatrix = (0.029904 | 0.0042 0.029904 | 0.0042 0.0042 0.029904)
+~ xmatrix = (0.067263 | 0.03346 0.067263 | 0.0315 0.03752 0.067263)
+new linecode.LC36_37 nphases = 3
+~ rmatrix = (0.004272 | 0.0006 0.004272 | 0.0006 0.0006 0.004272)
+~ xmatrix = (0.009609 | 0.00478 0.009609 | 0.0045 0.00536 0.009609)
+new linecode.LC37_38 nphases = 3
+~ rmatrix = (0.004272 | 0.0006 0.004272 | 0.0006 0.0006 0.004272)
+~ xmatrix = (0.009609 | 0.00478 0.009609 | 0.0045 0.00536 0.009609)
+new linecode.LC38_39 nphases = 3
+~ rmatrix = (0.029904 | 0.0042 0.029904 | 0.0042 0.0042 0.029904)
+~ xmatrix = (0.067263 | 0.03346 0.067263 | 0.0315 0.03752 0.067263)
+new linecode.LC39_40 nphases = 3
+~ rmatrix = (0.04272 | 0.006 0.04272 | 0.006 0.006 0.04272)
+~ xmatrix = (0.09609 | 0.0478 0.09609 | 0.045 0.0536 0.09609)
+new linecode.LC39_41 nphases = 3
+~ rmatrix = (0.09864 | 0.0036 0.09864 | 0.0036 0.0036 0.09864)
+~ xmatrix = (0.06036 | 0.02868 0.06036 | 0.027 0.03216 0.06036)
+new linecode.LC41_42 nphases = 3
+~ rmatrix = (0.0822 | 0.003 0.0822 | 0.003 0.003 0.0822)
+~ xmatrix = (0.0503 | 0.0239 0.0503 | 0.0225 0.0268 0.0503)
+new linecode.LC41_43 nphases = 3
+~ rmatrix = (0.01644 | 0.0006 0.01644 | 0.0006 0.0006 0.01644)
+~ xmatrix = (0.01006 | 0.00478 0.01006 | 0.0045 0.00536 0.01006)
+new linecode.LC43_44 nphases = 3
+~ rmatrix = (0.012816 | 0.0018 0.012816 | 0.0018 0.0018 0.012816)
+~ xmatrix = (0.028827 | 0.01434 0.028827 | 0.0135 0.01608 0.028827)
+new linecode.LC41_45 nphases = 3
+~ rmatrix = (0.017088 | 0.0024 0.017088 | 0.0024 0.0024 0.017088)
+~ xmatrix = (0.038436 | 0.01912 0.038436 | 0.018 0.02144 0.038436)
+new linecode.LC45_46 nphases = 3
+~ rmatrix = (0.025632 | 0.0036 0.025632 | 0.0036 0.0036 0.025632)
+~ xmatrix = (0.057654 | 0.02868 0.057654 | 0.027 0.03216 0.057654)
+new linecode.LC39_47 nphases = 3
+~ rmatrix = (0.008544 | 0.0012 0.008544 | 0.0012 0.0012 0.008544)
+~ xmatrix = (0.019218 | 0.00956 0.019218 | 0.009 0.01072 0.019218)
+new linecode.LC47_48 nphases = 3
+~ rmatrix = (0.051264 | 0.0072 0.051264 | 0.0072 0.0072 0.051264)
+~ xmatrix = (0.115308 | 0.05736 0.115308 | 0.054 0.06432 0.115308)
+
+new line.L136_1 B136 B1 LC136_1 1
+new line.L1_2 B1 B2 LC1_2 1
+new line.L2_3 B2 B3 LC2_3 1
+new line.L3_4 B3 B4 LC3_4 1
+new line.L3_5 B3 B5 LC3_5 1
+new line.L5_6 B5 B6 LC5_6 1
+new line.L6_7 B6 B7 LC6_7 1
+new line.L7_8 B7 B8 LC7_8 1
+new line.L8_9 B8 B9 LC8_9 1
+new line.L9_10 B9 B10 LC9_10 1
+new line.L10_11 B10 B11 LC10_11 1
+new line.L11_12 B11 B12 LC11_12 1
+new line.L12_13 B12 B13 LC12_13 1
+new line.L13_14 B13 B14 LC13_14 1
+new line.L14_15 B14 B15 LC14_15 1
+new line.L12_16 B12 B16 LC12_16 1
+new line.L16_17 B16 B17 LC16_17 1
+new line.L17_18 B17 B18 LC17_18 1
+new line.L18_19 B18 B19 LC18_19 1
+new line.L19_20 B19 B20 LC19_20 1
+new line.L20_21 B20 B21 LC20_21 1
+new line.L19_22 B19 B22 LC19_22 1
+new line.L11_23 B11 B23 LC11_23 1
+new line.L23_24 B23 B24 LC23_24 1
+new line.L24_25 B24 B25 LC24_25 1
+new line.L25_26 B25 B26 LC25_26 1
+new line.L26_27 B26 B27 LC26_27 1
+new line.L27_28 B27 B28 LC27_28 1
+new line.L28_29 B28 B29 LC28_29 1
+new line.L29_30 B29 B30 LC29_30 1
+new line.L30_31 B30 B31 LC30_31 1
+new line.L29_32 B29 B32 LC29_32 1
+new line.L27_33 B27 B33 LC27_33 1
+new line.L33_34 B33 B34 LC33_34 1
+new line.L34_35 B34 B35 LC34_35 1
+new line.L24_36 B24 B36 LC24_36 1
+new line.L36_37 B36 B37 LC36_37 1
+new line.L37_38 B37 B38 LC37_38 1
+new line.L38_39 B38 B39 LC38_39 1
+new line.L39_40 B39 B40 LC39_40 1
+new line.L39_41 B39 B41 LC39_41 1
+new line.L41_42 B41 B42 LC41_42 1
+new line.L41_43 B41 B43 LC41_43 1
+new line.L43_44 B43 B44 LC43_44 1
+new line.L41_45 B41 B45 LC41_45 1
+new line.L45_46 B45 B46 LC45_46 1
+new line.L39_47 B39 B47 LC39_47 1
+new line.L47_48 B47 B48 LC47_48 1
+
+new load.D1 bus1 = B1 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D2 bus1 = B2 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D3 bus1 = B3 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D4 bus1 = B4 phases = 3 kv = 13.8 kw = 82.8 kvar = 35.2728 model = 1
+new load.D5 bus1 = B5 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D6 bus1 = B6 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D7 bus1 = B7 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D8 bus1 = B8 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D9 bus1 = B9 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D10 bus1 = B10 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D11 bus1 = B11 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D12 bus1 = B12 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D13 bus1 = B13 phases = 3 kv = 13.8 kw = 15.825 kvar = 6.741 model = 1
+new load.D14 bus1 = B14 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D15 bus1 = B15 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D16 bus1 = B16 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D17 bus1 = B17 phases = 3 kv = 13.8 kw = 82.8 kvar = 35.2728 model = 1
+new load.D18 bus1 = B18 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D19 bus1 = B19 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D20 bus1 = B20 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D21 bus1 = B21 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D22 bus1 = B22 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D23 bus1 = B23 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D24 bus1 = B24 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D25 bus1 = B25 phases = 3 kv = 13.8 kw = 5.52 kvar = 2.3514 model = 1
+new load.D26 bus1 = B26 phases = 3 kv = 13.8 kw = 82.8 kvar = 35.2728 model = 1
+new load.D27 bus1 = B27 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D28 bus1 = B28 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D29 bus1 = B29 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D30 bus1 = B30 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D31 bus1 = B31 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D32 bus1 = B32 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D33 bus1 = B33 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D34 bus1 = B34 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D35 bus1 = B35 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D36 bus1 = B36 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D37 bus1 = B37 phases = 3 kv = 13.8 kw = 22.815 kvar = 9.7194 model = 1
+new load.D38 bus1 = B38 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D39 bus1 = B39 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D40 bus1 = B40 phases = 3 kv = 13.8 kw = 5.52 kvar = 2.3514 model = 1
+new load.D41 bus1 = B41 phases = 3 kv = 13.8 kw = 0 kvar = 0 model = 1
+new load.D42 bus1 = B42 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D43 bus1 = B43 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D44 bus1 = B44 phases = 3 kv = 13.8 kw = 138 kvar = 58.788 model = 1
+new load.D45 bus1 = B45 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D46 bus1 = B46 phases = 3 kv = 13.8 kw = 82.8 kvar = 35.2728 model = 1
+new load.D47 bus1 = B47 phases = 3 kv = 13.8 kw = 1.839 kvar = 0.7836 model = 1
+new load.D48 bus1 = B48 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+new load.D136 bus1 = B136 phases = 3 kv = 13.8 kw = 207 kvar = 88.1814 model = 1
+
+Set VoltageBases = [13.8]
+CalcVoltageBases
